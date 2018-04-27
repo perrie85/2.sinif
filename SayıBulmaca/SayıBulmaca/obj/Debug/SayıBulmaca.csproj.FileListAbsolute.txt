@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\bin\Debug\SayıBulmaca.exe.config
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\bin\Debug\SayıBulmaca.exe
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\bin\Debug\SayıBulmaca.pdb
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\obj\Debug\SayıBulmaca.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\obj\Debug\SayıBulmaca.Form1.resources
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\obj\Debug\SayıBulmaca.Properties.Resources.resources
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\obj\Debug\SayıBulmaca.csproj.GenerateResource.cache
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\obj\Debug\SayıBulmaca.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\obj\Debug\SayıBulmaca.exe
+C:\Users\user\source\repos\SayıBulmaca\SayıBulmaca\obj\Debug\SayıBulmaca.pdb
