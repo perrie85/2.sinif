@@ -84,9 +84,14 @@ SELECT ad,soyad,ogrenci.ogrencino,vize,dersad
 		WHERE dersler.dersno=notlar.dersno and ogrenci.ogrencino=notlar.ogrencino and ogrenci.ogrencino=100
 
 
-exec sp_notgoster 'matematik','vize',100
+exec sp_notgoster 'matematik','vize'
 
 SELECT ogrenci.ogrencino,ad,soyad,vize,final 
 	FROM ogrenci,notlar 
 		WHERE ogrenci.ogrencino=notlar.ogrencino and 45 < vize*0.4+final*0.6 and 
-											dersno=(select dersno from dersler where dersad='yazýlým mühendisliði')
+											dersno=(SELECT dersno FROM dersler WHERE dersad like'iler%')
+
+
+SELECT	MAX(vize) AS enfazla, MIN (vize) AS enaz 
+	FROM notlar 
+			WHERE dersno=(SELECT dersno FROM dersler WHERE dersad like'iler%')
